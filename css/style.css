@@ -11,7 +11,7 @@ body {
 .sidebar {
   background-color: rgb(14, 52, 27);
   color: #ffffff;
-  min-width: 300px;
+  /* min-width: 300px; */
   max-width: 300px;
   padding: 15px;
   height: 100vh;
@@ -22,6 +22,10 @@ body {
   top: 0;
   z-index: 1000;
   padding-bottom: 10px;
+}
+.info-btn {
+  padding-right: 5px;
+  cursor: pointer;
 }
 .scrollable-content {
   overflow-y: auto;
@@ -58,6 +62,10 @@ a {
   color: #ffffff !important;
   text-decoration: none;
 }
+
+.nav-link {
+  cursor: pointer;
+}
 .nav-link:hover {
   color: grey !important;
   text-decoration: underline;
@@ -91,4 +99,23 @@ a {
   width: 11px;
   height: 8px;
   background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white_small.png");
+}
+
+.overlay {
+  position: fixed;
+  /* top: 0; */
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s linear;
+  transform: translateY(-100%);
+}
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }

@@ -121,30 +121,3 @@ const set_target_position = (lat, lng) => {
     displayCircleDot(srcPos, dstPos, distance, map);
   });
 };
-
-//
-const set_buildings_list = () => {
-  buildings_nav.replaceChildren(); // 비워주기
-
-  for (building of building_infos) {
-    if (
-      input.value &&
-      !(
-        building.building_id.includes(input.value) ||
-        building.building_name.includes(input.value)
-      )
-    )
-      continue;
-
-    var link = document.createElement("a");
-    link.setAttribute("class", "nav-link building-item");
-    link.setAttribute(
-      "onclick",
-      `set_target_position(${building.building_latitude}, ${building.building_longitude})`
-    );
-    link.append(building.building_name + "(" + building.building_id + ")");
-
-    buildings_nav.appendChild(link);
-    buildings_nav.append(document.createElement("br"));
-  }
-};

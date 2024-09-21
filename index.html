@@ -14,7 +14,8 @@
     />
 
     <!-- load js -->
-    <script src="./js/script.js"></script>
+    <script src="./js/sidebar_script.js"></script>
+    <script src="./js/main_script.js"></script>
 
     <!-- load json -->
     <script type="text/javascript" src="./assets/building_infos.json"></script>
@@ -23,7 +24,7 @@
     <div class="container-fluid">
       <div class="row">
         <!-- Sidebar -->
-        <div class="col-auto sidebar">
+        <div class="col sidebar" id="sidebar">
           <!-- Fixed header section -->
           <div class="fixed-header">
             <h2 style="text-align: center; color: rgb(215, 200, 130)">
@@ -39,14 +40,23 @@
           </div>
 
           <div class="scrollable-content">
-            <ul class="nav flex-column" id="buildings-nav"></ul>
+            <ul class="nav flex-column" id="buildings-nav">
+              <li
+                class="nav-item d-flex justify-content-between align-items-center"
+              >
+                <a class="nav-link"> About </a>
+                <span>
+                  <i class="bi bi-info-circle"></i>
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
 
         <!-- Main content -->
-        <div class="col main-content">
+        <div class="col main-content" id="main">
           <div id="map" style="width: 100%; height: 100%"></div>
-          GPS 사용 여부를 확인해주세요
+
           <div class="floating-icon" onclick="set_current_position()">
             <i class="bi bi-crosshair"></i>
           </div>
@@ -54,19 +64,55 @@
       </div>
     </div>
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="overlayModal"
+      tabindex="-1"
+      aria-labelledby="overlayModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="overlayModalLabel">Overlay Title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="overlayModalBody">
+            This is an overlay modal. You can place any content here.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- script for sidebar -->
     <script>
+      // sidebar list
       const input = document.getElementById("building-id-input");
       const buildings_nav = document.getElementById("buildings-nav");
+      const modal_title = document.getElementById("overlayModalLabel");
+      const modal_body = document.getElementById("overlayModalBody");
+
       // 주어진 input에 맞게 list 최신화
       set_buildings_list();
 
       input.addEventListener("input", (e) => {
         set_buildings_list();
       });
-
-      var buildings0 = JSON.parse(JSON.stringify(buildings_nav));
-      console.log(buildings0);
     </script>
 
     <!-- script for main -->
