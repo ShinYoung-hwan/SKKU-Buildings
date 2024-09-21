@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Remove global scroll */
+}
+.container-fluid {
+  height: 100vh; /* Set container to full viewport height */
+  display: flex;
+}
+.sidebar {
+  background-color: rgb(14, 52, 27);
+  color: #ffffff;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 15px;
+  height: 100vh;
+  position: relative;
+}
+.fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-bottom: 10px;
+}
+.scrollable-content {
+  overflow-y: auto;
+  height: calc(
+    100vh - 100px
+  ); /* Adjust height to leave space for fixed header */
+}
+.main-content {
+  padding: 15px;
+  width: 100vw;
+  height: 100vh;
+}
+.floating-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(14, 52, 27);
+  color: rgb(215, 200, 130);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+.search-input {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: grey !important;
+  text-decoration: underline;
+}
+
+.dotOverlay {
+  position: relative;
+  bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #ddd;
+  float: left;
+  font-size: 12px;
+  padding: 5px;
+  background: #fff;
+}
+.dotOverlay:nth-of-type(n) {
+  border: 0;
+  box-shadow: 0px 1px 2px #888;
+}
+.number {
+  font-weight: bold;
+  color: #ee6152;
+}
+.dotOverlay:after {
+  content: "";
+  position: absolute;
+  margin-left: -6px;
+  left: 50%;
+  bottom: -8px;
+  width: 11px;
+  height: 8px;
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white_small.png");
+}
