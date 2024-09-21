@@ -1,515 +1,515 @@
 building_infos = [
-  {
-    "building_id": "01",
-    "building_name": "600주년기념관",
-    "building_image": "WdvZbhwLWznIHxqgvdLQ.jpg",
-    "building_info": "건학 600주년을 기념하기 위해서 1999년 11월에 완공되었다. 총장실, 부총장실을 비롯한 대학본부가 자리잡고 있으며, 각종 행사를 위한 대규모 공연장인 새천년홀과 조병두국제홀이 있다. 이 밖에 패컬티식당과 은행골, SUBWAY와 도미노피자가 입점해 있고, 수시로 전시회를 개최하는 박물관과 동아시아 연구의 메카인 동아시아학술원이 위치하고 있다.",
-    "building_latitude": 37.587361,
-    "building_longitude": 126.994479,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "02",
-    "building_name": "법학관",
-    "building_image": "JfYTKgbaCWwMVVsSljqZ.jpg",
-    "building_info": "법학전문대학원 및 글로벌리더학부가 위치한 건물로 2004년에 준공되었으며, 지하 3층 및 지상 5층의 규모를 자랑한다. 모의법정, 법학도서관, 법고을식당, 명인만두 등이 자리하고 있다.",
-    "building_latitude": 37.587441,
-    "building_longitude": 126.990506,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "04",
-    "building_name": "교수회관",
-    "building_image": "MSkqwIqSUllCGyuvvWFA.jpg",
-    "building_info": "1964년 건립되었으며, 강의실과 교수연구실, 옥류천식당이 위치해 있다.",
-    "building_latitude": 37.588636,
-    "building_longitude": 126.993209,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "05",
-    "building_name": "호암관",
-    "building_image": "lgrWezxUiYqWdniorvdb.jpg",
-    "building_info": "1969년 건립된 지상 12층 규모의 건물로 학부대학과 사범대학, 교육대학원이 사용한다. 강의공간 및 학군단, 교수 연구실이 위치해 있으며, 대학언론사무국과 성대방송국이 자리잡고 있다.",
-    "building_latitude": 37.588265,
-    "building_longitude": 126.992167,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "07",
-    "building_name": "중앙학술정보관",
-    "building_image": "eGgZtYEaVYOUnsBswLuE.jpg",
-    "building_info": "조선 제9대 성종 6년(1475)에 국학의 문고로 건축되어 유생들의 학문연구를 뒷받침해온 우리나라 최초의 도서관인 존경각(尊經閣). 이를 모체로 하는 중앙학술정보관은 국내서 약 65만권, 국외서 약 40만권으로 120만권에 가까운 많은 도서를 소장하고 있으며, 디지털 콘텐츠를 기반으로 한 복합문화공간이자, 지능정보사회에 걸맞는 도서관으로 탈바꿈하고 있다.",
-    "building_latitude": 37.588353,
-    "building_longitude": 126.994262,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "08",
-    "building_name": "학생회관",
-    "building_image": "SNtZPJwxsjffxvIdnlJk.jpg",
-    "building_info": "총학생회, 학생복지위원회 등 학생자치기구 사무실과 70여개에 이르는 동아리연합회 소속의 동아리방들이 자리잡고 있다. 아픈 교내 구성원들을 위한 건강센터와 휴게실도 마련되어 있다.",
-    "building_latitude": 37.58752,
-    "building_longitude": 126.99322,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "09",
-    "building_name": "국제관",
-    "building_image": "VNHtOBmDZfxXpbdZIvKh.jpg",
-    "building_info": "국제관은 2009년에 준공되었으며, SKK GSB/GSC 및 글로벌경영/경제학과 학생들의 강의공간으로 사용되고 있다. 최신식 멀티미디어 강의실과, 30여 개가 넘는 세미나룸, 약 200명까지 수용이 가능한 리셉션홀 등이 마련되어 있어 학생들의 학업과 그룹프로젝트 뿐만 아니라 국제세미나 및 리셉션 등이 원활히 이루어질 수 있도록 하고 있다.",
-    "building_latitude": 37.586819,
-    "building_longitude": 126.995246,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "16",
-    "building_name": "인터내셔널하우스(I-하우스)",
-    "building_image": "WPLWpaJwMrOrwTgagkTa.jpg",
-    "building_info": "성균관대학교 I-하우스는 외국인 교환학생 전용 기숙사이며, 100여명의 학생을 수용할 수 있는 시설이다. 2인실로 이루어져 있으며 안락한 분위기와 학교와 가깝다는 장점이 있다.",
-    "building_latitude": 37.585879,
-    "building_longitude": 126.99428,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "17",
-    "building_name": "양현관",
-    "building_image": "BvQtXDGpWaHFJecqoJXy.jpg",
-    "building_info": "국가에 이바지하는 인재 양성을 목표로 행정관료, 기술관료, 외교관, 공인회계사, 변리사, 언론인 등이 되고자 노력하는 학생들의 면학과 수험생활을 지원하기 위하여 1986년 처음 설립되었다. 2016년 리모델링을 마쳐 훨씬 더 쾌적한 환경에서 약 600여명의 성균인들이 학업에 정진하고 있다.",
-    "building_latitude": 37.589758,
-    "building_longitude": 126.993248,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "31",
-    "building_name": "퇴계인문관",
-    "building_image": "WdCStnSOvrsXRVTIUXGw.jpg",
-    "building_info": "조선 최고의 학자인 동시에 교육자였던 퇴계(退溪) 이황 선생의 뜻을 기리기 위해서 1993년 건립된 건물로, 지상 7층 규모를 가진다. 유학/문과대학 학생들이 주로 사용하며, 다산경제관 2층부터 5층까지 매 층마다 연결되어 있고, 교수 연구실과 다양한 규모의 강의실, 학생회실 및 CU 편의점이 마련되어 있다.",
-    "building_latitude": 37.589184,
-    "building_longitude": 126.991539,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "32",
-    "building_name": "다산경제관",
-    "building_image": "yUVWwDoFzYlCUvajOyWQ.jpg",
-    "building_info": "시대를 앞선 탁월한 정치경제 사상가였던 다산(茶山) 정약용 선생의 정신과 업적을 기리기 위해 1993년에 건립되었다. 교수 및 대학원생들의 연구실, 학생회실 및 휴게실, Creative-Smart Zone, 학생 상담을 위한 카운슬링센터 및 인권센터 등이 위치하며, 한국어 및 외국어 강좌를 운영하는 성균어학원이 자리잡고 있다.",
-    "building_latitude": 37.589053,
-    "building_longitude": 126.992435,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "33",
-    "building_name": "경영관",
-    "building_image": "GUttJwlBBtvVufrGOsHb.jpg",
-    "building_info": "2000년 1월 건립되었으며, 지하 4층, 지상 5층 건물에 현대식 학습시설을 갖춘 첨단강의실과 경영대학 및 IMBA,EMBA의 강의공간으로 사용되고 있다. 학생들의 취업 전반을 돕는 학생인재개발팀과 경제/경영대학행정실이 위치하고 있으며, 세미나실 및 도서관 등의 학습공간과 성균마당, 금잔디식당, 맘스터치, 국대떡볶이, 카페(ttt,사랑방), 서점, 사진관, 박준뷰티랩 등의 편의시설과 소극장, 원형극장, 체력증진센터 등 다양한 복지시설이 자리한다.",
-    "building_latitude": 37.588572,
-    "building_longitude": 126.992666,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "61",
-    "building_name": "수선관",
-    "building_image": "qFQNflcdWNDfZNBzyhdV.jpg",
-    "building_info": "예술대학과 사회과학대학이 사용하는 건물로 1974년 준공되었다. 사진실, 스튜디오, 편집실, 화실 등의 다양한 실습공간 및 강의실이 위치하며, 옥상공원 및 매점 등의 쉼터가 조성되어 있다. 1996년에 별관이 신축되어 무용장, 검도장 등의 체육시설 및 최신식 세미나실이 들어섰다.",
-    "building_latitude": 37.587882,
-    "building_longitude": 126.991079,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "62",
-    "building_name": "수선관(별관)",
-    "building_image": "UWdqFujESOcmKFBXKLdw.jpg",
-    "building_info": "예술대학과 사회과학대학이 사용하는 건물로 1974년 준공되었다. 사진실, 스튜디오, 편집실, 화실 등의 다양한 실습공간 및 강의실이 위치하며, 옥상공원 및 매점 등의 쉼터가 조성되어 있다. 1996년에 별관이 신축되어 무용장, 검도장 등의 체육시설 및 최신식 세미나실이 들어섰다.",
-    "building_latitude": 37.588089,
-    "building_longitude": 126.991062,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "75",
-    "building_name": "킹고하우스(K-하우스)",
-    "building_image": "PYvOtQGKXVVZoFLrIbGt.jpg",
-    "building_info": "성균관대학교 K-하우스는 여학생 및 법학전문대학원 학생들을 위한 기숙사로, 약 260여명의 학생을 수용할 수 있으며, 학교와 도서관이 매우 가깝게 위치하고 있다.",
-    "building_latitude": 37.587836,
-    "building_longitude": 126.995241,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "97",
-    "building_name": "비천당",
-    "building_image": "INIkYqzvwbqbuqfaQZLI.jpg",
-    "building_info": "조선시대 성균관의 별당으로, 성균관 재생(齋生)들의 학습장소로 사용되거나 임금이 성균관에 친림(親臨)하여 과거를 시행할 때 시험장소로 사용되던 곳이다.",
-    "building_latitude": 37.586557,
-    "building_longitude": 126.994719,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "98",
-    "building_name": "명륜당",
-    "building_image": "SghBCbGfxRghLBPHDsRI.jpg",
-    "building_info": "보물 제141호로 지정되어 있으며,  『맹자』 등문공편(滕文公篇)에 “학교를 세워 교육을 행함은 모두 인륜을 밝히는 것이다.”라 한데서 유래하여 '명륜당'이라 명명하였다. 조선시대 성균관 유생들의 강의와 시험 장소, 국왕의 강연과 과거, 왕세자 입학 같은 중요한 행사를 이곳에서 행했다.",
-    "building_latitude": 37.586141,
-    "building_longitude": 126.995723,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "99",
-    "building_name": "대성전",
-    "building_image": "liaWDwiNJvgTXUUbGJgI.jpg",
-    "building_info": "공자의 위패를 모신 곳으로, 전국 231개의 향교 중 성균관 대성전은 특별히 남북으로 4영(楹), 동서로 5영(楹)의 20칸 규모에 전당후실(前堂後室) 양식을 지닌 사당이다. 보물 제 141호.",
-    "building_latitude": 37.585484,
-    "building_longitude": 126.995962,
-    "campus": "인문사회과학캠퍼스"
-  },
-  {
-    "building_id": "03",
-    "building_name": "학생회관",
-    "building_image": "HIhzwLynuxdxSowDjJID.jpg",
-    "building_info": "1981년에 준공되었으며  종합행정실(학생지원팀, 외국인유학생지원팀, 학생인재개발팀, 비상계획관), 학생회관식당(행단골식당), 각종 동아리방과 성대신문사, 성균Times 등의 언론반 등이 위치해있다.",
-    "building_latitude": 37.293872,
-    "building_longitude": 126.97355,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "04",
-    "building_name": "복지회관",
-    "building_image": "GWiKLUJrkZapKGciOdjO.jpg",
-    "building_info": "1997년에 준공된 건물로, 교직원식당(구시재), 카운슬링센터, 건강센터, 우체국 등의 각종 교내 편의시설이 위치해 있다.",
-    "building_latitude": 37.29396,
-    "building_longitude": 126.972533,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "05",
-    "building_name": "수성관",
-    "building_image": "MioGHxYwlMyzyQTZLpLN.jpg",
-    "building_info": "1986년에 준공된 연면적 10,150㎡의 건물로, 스포츠과학대학이 주로 사용하는 공간이다.체육관 및 주경기장, 체력단련실, 락커(locker) 등이 마련되어 있다.",
-    "building_latitude": 37.293219,
-    "building_longitude": 126.972004,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "11",
-    "building_name": "유틸리티센터",
-    "building_image": "iFyfoQSBqrdCxOYDEPIe.jpg",
-    "building_info": "2018년 9월에 준공된 유틸리티센터는 자연과학캠퍼스의 종합관리사무실과 학내 구성원들의 체력 증진을 위한 체력단련실 및 스쿼시 시설 등의 \"1398피트니스센터\"가 위치해 있는 최신식 건물이다. ",
-    "building_latitude": 37.294102,
-    "building_longitude": 126.978588,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "12",
-    "building_name": "환경플랜트",
-    "building_image": "wwDegWwhbWKuYrIbKKvz.jpg",
-    "building_info": "1998년 5월에 준공되었으며, 900.48㎡의 면적을 가지고 있는 1층 규모의 플랜트이다.",
-    "building_latitude": 37.290988,
-    "building_longitude": 126.975282,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "19",
-    "building_name": "후문(서문)",
-    "building_image": "gtYqJAyxGMaptCnmMcIT.jpg",
-    "building_info": "성균관대학교의 후문으로, 캠퍼스의 서쪽에 위치해 서문이라고 불리기도 한다.",
-    "building_latitude": 37.296305,
-    "building_longitude": 126.970633,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "21",
-    "building_name": "제1공학관21동",
-    "building_image": "cDFlioYZSavDXEIOBKTu.jpg",
-    "building_info": "1978년에 완공된 제1공학관은 21동부터 23동까지로 나뉘며 'ㄷ'자 형태로 구분되어 있다. 21동에는 정보통신/소프트웨어/공과대학행정실을 비롯한 행정실, CAD연구실 등 다양한 연구실과 스마트라운지, 스마트갤러리와 같은 시설을 갖추고 있다.",
-    "building_latitude": 37.293633,
-    "building_longitude": 126.976405,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "22",
-    "building_name": "제1공학관22동",
-    "building_image": "kXOXVQGyvDsersHvkVYN.jpg",
-    "building_info": "1978년에 완공된 제1공학관은 21동부터 23동까지로 나뉘며 'ㄷ'자 형태로 구분되어 있다. 22동에는 다양한 연구실과 ADIC센터, 프리젠테이션룸, 설계실, 첨단강의실 및 세미나실 등을 갖추고 있다.",
-    "building_latitude": 37.293847,
-    "building_longitude": 126.977091,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "23",
-    "building_name": "제1공학관23동",
-    "building_image": "DYpqZcoYpynzgLcicOSL.jpg",
-    "building_info": "1978년에 완공된 제1공학관은 21동부터 23동까지로 나뉘며 'ㄷ'자 형태로 구분되어 있다. 23동에는 IT가속기공학연구센터와 같은 연구시설과 교수 연구실, 캠퍼스관리팀과 세미나실 등을 갖추고 있다.",
-    "building_latitude": 37.294293,
-    "building_longitude": 126.976662,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "24",
-    "building_name": "공학실습동B(24)",
-    "building_image": "ByHLkVaSZplNLebnpLtR.jpg",
-    "building_info": "1980년 6월에 준공된 실습동으로 2개동, 총 3층의 규모로 구성되었다. 3,310.90㎡ 연면적 안에 다양한 실험실, 연구실, 설계스튜디오, 공작실 등을 가지고 있다.",
-    "building_latitude": 37.293284,
-    "building_longitude": 126.977898,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "25",
-    "building_name": "제2공학관25동",
-    "building_image": "odhylGnwKZqFyDHSIhDt.jpg",
-    "building_info": "1994년에 완공된 제2공학관은 25동부터 27동까지의 연구동이 'ㄷ'자 형태로 연결되어 있다. 25동에는 다양한 연구실과 실험실, 회의실 등의 시설을 갖추고 있다.",
-    "building_latitude": 37.294739,
-    "building_longitude": 126.976718,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "26",
-    "building_name": "제2공학관26동",
-    "building_image": "OHLbgzNRjladwpZeGFOx.jpg",
-    "building_info": "1994년에 완공된 제2공학관은 25동부터 27동까지의 연구동이 'ㄷ'자로 연결된 형태를 갖췄다. 26동에는 공대식당을 비롯한 휴게실과 매점, 열람실 등의 편의시설과 첨단강의실, 대학원생들을 위한 연구공간이 곳곳에 마련되어 있다.",
-    "building_latitude": 37.295087,
-    "building_longitude": 126.97745,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "27",
-    "building_name": "제2공학관27동",
-    "building_image": "wOAeAMMNqMcKIIyOgbqZ.jpg",
-    "building_info": "1994년에 완공된 제2공학관은 25동부터 27동까지의 연구동이 'ㄷ'자 형태로 연결되어 있다. 27동에는 공학교육혁신센터와 성균어학원, 우주과학기술연구소, 창업기업 사무실 등이 자리하며, 다양한 세미나실, 연구실 및 강의실을 갖추고 있다.",
-    "building_latitude": 37.295505,
-    "building_longitude": 126.976927,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "30",
-    "building_name": "건축환경실험실",
-    "building_image": "iVABOwaqPzglpRKjmkUV.jpg",
-    "building_info": "2001년 2월에 준공되었으며, 연면적 108㎡의 실험실이다.",
-    "building_latitude": 37.293356,
-    "building_longitude": 126.976959,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "31",
-    "building_name": "제1과학관31동",
-    "building_image": "jVQAiAAYHsgBUxboseYi.jpg",
-    "building_info": "1981년에 준공된 제1과학관은 자연과학대학이 주로 사용하는 공간이다. 교수연구실, 실험실, 강의실, 회의실 등이 마련되어 있다. 제1과학관부터 제2과학관, 기초학문관, 생명공학관까지 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
-    "building_latitude": 37.294377,
-    "building_longitude": 126.974881,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "32",
-    "building_name": "제2과학관32동",
-    "building_image": "AGBCwxmgrrEMJUMjQNWU.jpg",
-    "building_info": "1981년에 준공된 제2과학관은 자연과학대학이 주로 사용하는 공간이다. 기초과학연구소 등의 연구시설과 암실,저온실 등의 다양한 실험실, 세미나실 등이 마련되어 있다. 제1과학관과 기초학문관, 생명공학관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
-    "building_latitude": 37.294928,
-    "building_longitude": 126.974766,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "33",
-    "building_name": "화학관",
-    "building_image": "zByGanOLOKNIivMfcbXI.jpg",
-    "building_info": "2008년에 준공되었으며, 약학관과 반도체관을 잇는 종합강의동으로, 지하 1층, 지상 8층의 총 9,133㎡ 면적을 가진다. 첨단강의실과 연구실 및 회의실, 라운지 등의 공간과 슈퍼컴퓨터실, 동위원소실험실, 세포배양실등 연구에 필요한 최신식 시설을 고루 갖추고 있다.",
-    "building_latitude": 37.291544,
-    "building_longitude": 126.977409,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "40",
-    "building_name": "반도체관",
-    "building_image": "WaZMcBQIAbfGPQAfaqOR.jpg",
-    "building_info": "2008년에 준공되었으며, 약학관과 반도체관을 잇는 종합강의동으로, 지하 1층, 지상 8층의 총 9,133㎡ 면적을 가진다. 첨단강의실과 연구실 및 실습실 등의 학업 및 연구공간과 워크스테이션실, 디지털콘텐츠스튜디오, SW스튜디오등의 최신식 시설을 갖추고 있다.",
-    "building_latitude": 37.291781,
-    "building_longitude": 126.978085,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "48",
-    "building_name": "삼성학술정보관",
-    "building_image": "LSHRXXTOWcbuUlegcgZV.jpg",
-    "building_info": "2009년에 신축된 삼성학술정보관은 국내 최고 수준의 최신식 멀티미디어 기기와 시설들을 보유하고 있다. 국내서 약 42만권, 국외서 약 20만권으로 62만권에 가까운 도서를 소장 중이며, 기본적인 도서관의 기능뿐 아니라 정보화사회에 걸맞는 다기능도서관의 역할을 수행하고 있다.",
-    "building_latitude": 37.293885,
-    "building_longitude": 126.974906,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "49",
-    "building_name": "운용재",
-    "building_image": "hlFNvUBXPNUsBaLfyAsK.jpg",
-    "building_info": "국가에 이바지하는 인재 양성을 목표로 변리사 및 기술고시를 준비하는 학생들의 면학과 수험생활을 지원하기 위한 공간으로 설립되었다. 복지회관 뒤에 위치하고 있으며 지상 2층 규모를 갖고 있다.",
-    "building_latitude": 37.294555,
-    "building_longitude": 126.971921,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "51",
-    "building_name": "기초학문관51동",
-    "building_image": "IGqmdrRtdrxGpYwUGahu.jpg",
-    "building_info": "1981년에 준공된 기초학문관은, 학부/사범대학행정실 등의 행정공간과 강의실, 연구실 등이 즐비해 있다. 제1과학관과 제2과학관, 생명공학관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
-    "building_latitude": 37.295363,
-    "building_longitude": 126.974259,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "53",
-    "building_name": "약학관",
-    "building_image": "XCZQHUvTFwGLuIeaAErf.jpg",
-    "building_info": "2008년에 준공되었으며, 화학관과 반도체관을 잇는 종합강의동으로, 지하 1층, 지상 8층의 총 9,133㎡ 면적을 가진다. 첨단강의실과 연구실 및 실습실, 세미나실등의 공간과 도서관, 열람실, 체력단련실 등 다양한 편의시설을 갖추고 있다.",
-    "building_latitude": 37.291914,
-    "building_longitude": 126.976538,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "61",
-    "building_name": "생명공학관61동",
-    "building_image": "aRNOpOONIoXsjArYVfJw.jpg",
-    "building_info": "1981년에 준공된 생명공학관은 생명공학대학 학생들이 주로 이용하는 공간으로, 연구실과 설계실, 세미나실, 실습실 등의 다양한 공간이 마련되어 있다. 제1과학관과 제2과학관, 기초학문관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
-    "building_latitude": 37.295862,
-    "building_longitude": 126.973918,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "62",
-    "building_name": "생명공학관62동",
-    "building_image": "fbdUwcUtOTfMnxzjwYKT.jpg",
-    "building_info": "기존의 생명공학관에 더하여 1988년에 증축되었으며, 생명공학대학 학생들이 주로 이용하는 공간으로 연구실과 학생회실, 실험실 등의 다양한 공간이 마련되어 있다. 제1과학관과 제2과학관, 기초학문관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
-    "building_latitude": 37.296092,
-    "building_longitude": 126.974554,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "70",
-    "building_name": "대강당",
-    "building_image": "WIKLPKuDrWchaqHbHCGz.jpg",
-    "building_info": "2001년에 의학관과 함께 준공되었으며, 의과대학에서 관리하는 대강당이다. 주요 세미나와 학술대회를 개최할 수 있는 넓은 규모를 가지고 있다.",
-    "building_latitude": 37.292326,
-    "building_longitude": 126.972404,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "71",
-    "building_name": "의학관",
-    "building_image": "bsVFmGwcaTVxbGMDyDMq.jpg",
-    "building_info": "의학과 학생들이 사용하는 의학관은 2001년 2월에 준공되었으며, 전문적 자질과 능력을 지닌 우수한 의료인을 양성하기 위한 최신식 장비와 연구 시설을 갖춘 첨단강의동이다.",
-    "building_latitude": 37.29211,
-    "building_longitude": 126.973383,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "72",
-    "building_name": "체육관",
-    "building_image": "BBuLhKYvpkoSjSvbcIKo.jpg",
-    "building_info": "성균관대학교 스포츠단 중 실내종목(농구,배구,검도 등)의 운동부 학생들이 사용하는 공간으로 2003년에 준공되었다. 선수들의 쾌적한 체육활동을 도울 수 있도록 물리치료실, 휴게실, 탈의실 및 샤워시설 등이 조성되어 있다.",
-    "building_latitude": 37.292399,
-    "building_longitude": 126.97069,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "81",
-    "building_name": "제1종합연구동",
-    "building_image": "xPtBzbUGjqtgPdCyZltP.jpg",
-    "building_info": "제1종합연구동은 산학협력 및 세계적 수준의 연구결과 창출을 위해 2001년에 준공된 복합연구공간이다. 연구에 필요한 최신식 기기와 설비를 갖추고 있으며, 지하 2층, 지상 8층, 총 10층 규모로 구성되었다.",
-    "building_latitude": 37.292224,
-    "building_longitude": 126.978466,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "83",
-    "building_name": "제2종합연구동",
-    "building_image": "keZTsnDXaEtYVKpakLTY.jpg",
-    "building_info": "제2종합연구동은 산학협력 및 세계적 수준의 연구결과 창출을 통한 글로벌 리딩대학으로의 도약을 위해 2006년에 준공된 복합연구공간이다. 총 3동의 건물로 구성되어 있다. 연구에 필요한 최신식 기기와 설비를 갖추고 있으며, 지하 1층, 지상 7층, 총 7층 규모로 구성되었다.",
-    "building_latitude": 37.293159,
-    "building_longitude": 126.978511,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "84",
-    "building_name": "제약기술관",
-    "building_image": "SdllaqXvKKChmFyfyaVb.jpg",
-    "building_info": "약학과 학생들이 주로 사용하는 공간으로, 제약기술 관련 연구를 수행할 수 있는 최신식 장비들을 완비하고 있다. 약학관과 함께 2008년에 준공되었다.",
-    "building_latitude": 37.291544,
-    "building_longitude": 126.976448,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "85",
-    "building_name": "산학협력센터",
-    "building_image": "PnRvioYinIlZEXFPapOt.jpg",
-    "building_info": "산학협력센터는 정부 및 지자체의 산학협력 지원 및 창업지원사업을 통해 2013년에 건립된 건물로써, 산학협력단과 연구실, 세미나실이 들어서 있으며, 40여 개의 창업보육기업 및 실습실 등이 위치하고 있다.",
-    "building_latitude": 37.295857,
-    "building_longitude": 126.97565,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "86",
-    "building_name": "N센터",
-    "building_image": "IcesOrjsuvUJGjqMTlVs.jpg",
-    "building_info": "지하 2층, 지상 8층, 총 10층 규모로 2015년 준공되었으며, 27,575.39㎡의 연면적을 가진다. 각종 실험실 및 특수실험실과 최신식 실험 장비 및 시설들을 갖추어 학생들이 뛰어난 연구를 수행할 수 있는 환경을 제공한다.",
-    "building_latitude": 37.291996,
-    "building_longitude": 126.975703,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "89",
-    "building_name": "학군단",
-    "building_image": "QZYEOdOStSJxKEeoZfKH.jpg",
-    "building_info": "성균관대학교 ROTC 학우들이 머무는 공간이다. 생활관, 체력단련실, 행정반 등이 위치해 있다.",
-    "building_latitude": 37.29438,
-    "building_longitude": 126.971825,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "91",
-    "building_name": "기숙사인관",
-    "building_image": "mVBpYGzfJthGhyABCYmm.jpg",
-    "building_info": "1982년에 준공된 인관은 학부 남학생들을 위한 기숙사로, 400여명을 수용할 수 있는 시설이다. 4인실로 구성되어 있고 상대적으로 저렴한 기숙사비로 다양한 친구와 선후배들을 만나기를 원하는 학생들이 선호하는 공간이다.",
-    "building_latitude": 37.296935,
-    "building_longitude": 126.973932,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "92",
-    "building_name": "기숙사의관",
-    "building_image": "ONlShPdVcfLFtsbvfxtA.jpg",
-    "building_info": "1979년에 준공된 의관은 대학원생들을 위한 기숙사로, 2층에는 여학생이, 1,3층에는 남학생들을 위한 전용 공간이 마련되어 있다. 약 200여명을 수용할 수 있으며, 대학원생을 위해 통금 시간 없이 자유로운 출입이 가능하다는 것이 장점이다.",
-    "building_latitude": 37.296915,
-    "building_longitude": 126.974522,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "93",
-    "building_name": "기숙사예관",
-    "building_image": "gBrzUaizisolrbhPzQak.jpg",
-    "building_info": "1997년에 준공된 예관은 학부 여학생들을 위한 기숙사로, 약 350여명을 수용할 수 있다. 전체 호실이 2인실로 구성되어 있고 공용시설이 많아 호실별로 청소와 관리를 하는 것에 부담을 느끼는 학생들에게 상대적으로 적합한 공간이다.",
-    "building_latitude": 37.296601,
-    "building_longitude": 126.975574,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "95",
-    "building_name": "기숙사지관",
-    "building_image": "rBJvfzuqrDJfYihewAtn.jpg",
-    "building_info": "2001년에 준공된 지관은 학부 남학생들을 위한 기숙사로, 전 호실이 2인실로 구성되어 있고, 약 900여명을 수용할 수 있는 큰 규모의 기숙사이다. 공용시설이 많아 호실별로 청소와 관리를 하는 것에 부담을 느끼는 학생들에게 상대적으로 적합한 공간이다.",
-    "building_latitude": 37.296413,
-    "building_longitude": 126.977534,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "96",
-    "building_name": "게스트하우스",
-    "building_image": "ypRGHTtIdyIBkusTlVAa.jpg",
-    "building_info": "2001년에 준공되었으며, 지상 4층, 연면적 931.26㎡로 구성되어 있다. 성균관대학교 교직원 전용 게스트하우스로 업무적으로 이용이 필요한 교직원, 외국인 교원 및 연구원들은 누구든지 신청 후 사용할 수 있다.",
-    "building_latitude": 37.295791,
-    "building_longitude": 126.977777,
-    "campus": "자연과학캠퍼스"
-  },
-  {
-    "building_id": "98",
-    "building_name": "기숙사신관",
-    "building_image": "TDlgxiWwGrioigIvRVvi.jpg",
-    "building_info": "2008년 신축된 최신식 시설의 기숙사인 신관은 지상 15층, 지하 2층으로 구성되어 있으며, 피트니스센터, 세미나실,  소강당, 도미노피자 등의 편의시설이 완비되어 있다. 호실도 1인실부터 2인 1실, 4인 1실, 3인 3실, 4인 4실, 6인 3실 등 다양한 생활공간이 마련되어 학생들이 원하는 대로 선택할 수 있도록 배려했다.",
-    "building_latitude": 37.296407,
-    "building_longitude": 126.972393,
-    "campus": "자연과학캠퍼스"
-  }
+	{
+		"building_id": "01",
+		"building_name": "600주년기념관",
+		"building_image": "WdvZbhwLWznIHxqgvdLQ.jpg",
+		"building_info": "건학 600주년을 기념하기 위해서 1999년 11월에 완공되었다. 총장실, 부총장실을 비롯한 대학본부가 자리잡고 있으며, 각종 행사를 위한 대규모 공연장인 새천년홀과 조병두국제홀이 있다. 이 밖에 패컬티식당과 은행골, SUBWAY와 도미노피자가 입점해 있고, 수시로 전시회를 개최하는 박물관과 동아시아 연구의 메카인 동아시아학술원이 위치하고 있다.",
+		"building_latitude": 37.587361,
+		"building_longitude": 126.994479,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "02",
+		"building_name": "법학관",
+		"building_image": "JfYTKgbaCWwMVVsSljqZ.jpg",
+		"building_info": "법학전문대학원 및 글로벌리더학부가 위치한 건물로 2004년에 준공되었으며, 지하 3층 및 지상 5층의 규모를 자랑한다. 모의법정, 법학도서관, 법고을식당, 명인만두 등이 자리하고 있다.",
+		"building_latitude": 37.587441,
+		"building_longitude": 126.990506,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "04",
+		"building_name": "교수회관",
+		"building_image": "MSkqwIqSUllCGyuvvWFA.jpg",
+		"building_info": "1964년 건립되었으며, 강의실과 교수연구실, 옥류천식당이 위치해 있다.",
+		"building_latitude": 37.588636,
+		"building_longitude": 126.993209,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "05",
+		"building_name": "호암관",
+		"building_image": "lgrWezxUiYqWdniorvdb.jpg",
+		"building_info": "1969년 건립된 지상 12층 규모의 건물로 학부대학과 사범대학, 교육대학원이 사용한다. 강의공간 및 학군단, 교수 연구실이 위치해 있으며, 대학언론사무국과 성대방송국이 자리잡고 있다.",
+		"building_latitude": 37.588265,
+		"building_longitude": 126.992167,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "07",
+		"building_name": "중앙학술정보관",
+		"building_image": "eGgZtYEaVYOUnsBswLuE.jpg",
+		"building_info": "조선 제9대 성종 6년(1475)에 국학의 문고로 건축되어 유생들의 학문연구를 뒷받침해온 우리나라 최초의 도서관인 존경각(尊經閣). 이를 모체로 하는 중앙학술정보관은 국내서 약 65만권, 국외서 약 40만권으로 120만권에 가까운 많은 도서를 소장하고 있으며, 디지털 콘텐츠를 기반으로 한 복합문화공간이자, 지능정보사회에 걸맞는 도서관으로 탈바꿈하고 있다.",
+		"building_latitude": 37.588353,
+		"building_longitude": 126.994262,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "08",
+		"building_name": "학생회관",
+		"building_image": "SNtZPJwxsjffxvIdnlJk.jpg",
+		"building_info": "총학생회, 학생복지위원회 등 학생자치기구 사무실과 70여개에 이르는 동아리연합회 소속의 동아리방들이 자리잡고 있다. 아픈 교내 구성원들을 위한 건강센터와 휴게실도 마련되어 있다.",
+		"building_latitude": 37.58752,
+		"building_longitude": 126.99322,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "09",
+		"building_name": "국제관",
+		"building_image": "VNHtOBmDZfxXpbdZIvKh.jpg",
+		"building_info": "국제관은 2009년에 준공되었으며, SKK GSB/GSC 및 글로벌경영/경제학과 학생들의 강의공간으로 사용되고 있다. 최신식 멀티미디어 강의실과, 30여 개가 넘는 세미나룸, 약 200명까지 수용이 가능한 리셉션홀 등이 마련되어 있어 학생들의 학업과 그룹프로젝트 뿐만 아니라 국제세미나 및 리셉션 등이 원활히 이루어질 수 있도록 하고 있다.",
+		"building_latitude": 37.586819,
+		"building_longitude": 126.995246,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "16",
+		"building_name": "인터내셔널하우스(I-하우스)",
+		"building_image": "WPLWpaJwMrOrwTgagkTa.jpg",
+		"building_info": "성균관대학교 I-하우스는 외국인 교환학생 전용 기숙사이며, 100여명의 학생을 수용할 수 있는 시설이다. 2인실로 이루어져 있으며 안락한 분위기와 학교와 가깝다는 장점이 있다.",
+		"building_latitude": 37.585879,
+		"building_longitude": 126.99428,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "17",
+		"building_name": "양현관",
+		"building_image": "BvQtXDGpWaHFJecqoJXy.jpg",
+		"building_info": "국가에 이바지하는 인재 양성을 목표로 행정관료, 기술관료, 외교관, 공인회계사, 변리사, 언론인 등이 되고자 노력하는 학생들의 면학과 수험생활을 지원하기 위하여 1986년 처음 설립되었다. 2016년 리모델링을 마쳐 훨씬 더 쾌적한 환경에서 약 600여명의 성균인들이 학업에 정진하고 있다.",
+		"building_latitude": 37.589758,
+		"building_longitude": 126.993248,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "31",
+		"building_name": "퇴계인문관",
+		"building_image": "WdCStnSOvrsXRVTIUXGw.jpg",
+		"building_info": "조선 최고의 학자인 동시에 교육자였던 퇴계(退溪) 이황 선생의 뜻을 기리기 위해서 1993년 건립된 건물로, 지상 7층 규모를 가진다. 유학/문과대학 학생들이 주로 사용하며, 다산경제관 2층부터 5층까지 매 층마다 연결되어 있고, 교수 연구실과 다양한 규모의 강의실, 학생회실 및 CU 편의점이 마련되어 있다.",
+		"building_latitude": 37.589184,
+		"building_longitude": 126.991539,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "32",
+		"building_name": "다산경제관",
+		"building_image": "yUVWwDoFzYlCUvajOyWQ.jpg",
+		"building_info": "시대를 앞선 탁월한 정치경제 사상가였던 다산(茶山) 정약용 선생의 정신과 업적을 기리기 위해 1993년에 건립되었다. 교수 및 대학원생들의 연구실, 학생회실 및 휴게실, Creative-Smart Zone, 학생 상담을 위한 카운슬링센터 및 인권센터 등이 위치하며, 한국어 및 외국어 강좌를 운영하는 성균어학원이 자리잡고 있다.",
+		"building_latitude": 37.589053,
+		"building_longitude": 126.992435,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "33",
+		"building_name": "경영관",
+		"building_image": "GUttJwlBBtvVufrGOsHb.jpg",
+		"building_info": "2000년 1월 건립되었으며, 지하 4층, 지상 5층 건물에 현대식 학습시설을 갖춘 첨단강의실과 경영대학 및 IMBA,EMBA의 강의공간으로 사용되고 있다. 학생들의 취업 전반을 돕는 학생인재개발팀과 경제/경영대학행정실이 위치하고 있으며, 세미나실 및 도서관 등의 학습공간과 성균마당, 금잔디식당, 맘스터치, 국대떡볶이, 카페(ttt,사랑방), 서점, 사진관, 박준뷰티랩 등의 편의시설과 소극장, 원형극장, 체력증진센터 등 다양한 복지시설이 자리한다.",
+		"building_latitude": 37.588572,
+		"building_longitude": 126.992666,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "61",
+		"building_name": "수선관",
+		"building_image": "qFQNflcdWNDfZNBzyhdV.jpg",
+		"building_info": "예술대학과 사회과학대학이 사용하는 건물로 1974년 준공되었다. 사진실, 스튜디오, 편집실, 화실 등의 다양한 실습공간 및 강의실이 위치하며, 옥상공원 및 매점 등의 쉼터가 조성되어 있다. 1996년에 별관이 신축되어 무용장, 검도장 등의 체육시설 및 최신식 세미나실이 들어섰다.",
+		"building_latitude": 37.587882,
+		"building_longitude": 126.991079,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "62",
+		"building_name": "수선관(별관)",
+		"building_image": "UWdqFujESOcmKFBXKLdw.jpg",
+		"building_info": "예술대학과 사회과학대학이 사용하는 건물로 1974년 준공되었다. 사진실, 스튜디오, 편집실, 화실 등의 다양한 실습공간 및 강의실이 위치하며, 옥상공원 및 매점 등의 쉼터가 조성되어 있다. 1996년에 별관이 신축되어 무용장, 검도장 등의 체육시설 및 최신식 세미나실이 들어섰다.",
+		"building_latitude": 37.588089,
+		"building_longitude": 126.991062,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "75",
+		"building_name": "킹고하우스(K-하우스)",
+		"building_image": "PYvOtQGKXVVZoFLrIbGt.jpg",
+		"building_info": "성균관대학교 K-하우스는 여학생 및 법학전문대학원 학생들을 위한 기숙사로, 약 260여명의 학생을 수용할 수 있으며, 학교와 도서관이 매우 가깝게 위치하고 있다.",
+		"building_latitude": 37.587836,
+		"building_longitude": 126.995241,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "97",
+		"building_name": "비천당",
+		"building_image": "INIkYqzvwbqbuqfaQZLI.jpg",
+		"building_info": "조선시대 성균관의 별당으로, 성균관 재생(齋生)들의 학습장소로 사용되거나 임금이 성균관에 친림(親臨)하여 과거를 시행할 때 시험장소로 사용되던 곳이다.",
+		"building_latitude": 37.586557,
+		"building_longitude": 126.994719,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "98",
+		"building_name": "명륜당",
+		"building_image": "SghBCbGfxRghLBPHDsRI.jpg",
+		"building_info": "보물 제141호로 지정되어 있으며,  『맹자』 등문공편(滕文公篇)에 “학교를 세워 교육을 행함은 모두 인륜을 밝히는 것이다.”라 한데서 유래하여 '명륜당'이라 명명하였다. 조선시대 성균관 유생들의 강의와 시험 장소, 국왕의 강연과 과거, 왕세자 입학 같은 중요한 행사를 이곳에서 행했다.",
+		"building_latitude": 37.586141,
+		"building_longitude": 126.995723,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "99",
+		"building_name": "대성전",
+		"building_image": "liaWDwiNJvgTXUUbGJgI.jpg",
+		"building_info": "공자의 위패를 모신 곳으로, 전국 231개의 향교 중 성균관 대성전은 특별히 남북으로 4영(楹), 동서로 5영(楹)의 20칸 규모에 전당후실(前堂後室) 양식을 지닌 사당이다. 보물 제 141호.",
+		"building_latitude": 37.585484,
+		"building_longitude": 126.995962,
+		"campus": "인문사회과학캠퍼스"
+	},
+	{
+		"building_id": "03",
+		"building_name": "학생회관",
+		"building_image": "HIhzwLynuxdxSowDjJID.jpg",
+		"building_info": "1981년에 준공되었으며  종합행정실(학생지원팀, 외국인유학생지원팀, 학생인재개발팀, 비상계획관), 학생회관식당(행단골식당), 각종 동아리방과 성대신문사, 성균Times 등의 언론반 등이 위치해있다.",
+		"building_latitude": 37.293872,
+		"building_longitude": 126.97355,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "04",
+		"building_name": "복지회관",
+		"building_image": "GWiKLUJrkZapKGciOdjO.jpg",
+		"building_info": "1997년에 준공된 건물로, 교직원식당(구시재), 카운슬링센터, 건강센터, 우체국 등의 각종 교내 편의시설이 위치해 있다.",
+		"building_latitude": 37.29396,
+		"building_longitude": 126.972533,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "05",
+		"building_name": "수성관",
+		"building_image": "MioGHxYwlMyzyQTZLpLN.jpg",
+		"building_info": "1986년에 준공된 연면적 10,150㎡의 건물로, 스포츠과학대학이 주로 사용하는 공간이다.체육관 및 주경기장, 체력단련실, 락커(locker) 등이 마련되어 있다.",
+		"building_latitude": 37.293219,
+		"building_longitude": 126.972004,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "11",
+		"building_name": "유틸리티센터",
+		"building_image": "iFyfoQSBqrdCxOYDEPIe.jpg",
+		"building_info": "2018년 9월에 준공된 유틸리티센터는 자연과학캠퍼스의 종합관리사무실과 학내 구성원들의 체력 증진을 위한 체력단련실 및 스쿼시 시설 등의 \"1398피트니스센터\"가 위치해 있는 최신식 건물이다. ",
+		"building_latitude": 37.294102,
+		"building_longitude": 126.978588,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "12",
+		"building_name": "환경플랜트",
+		"building_image": "wwDegWwhbWKuYrIbKKvz.jpg",
+		"building_info": "1998년 5월에 준공되었으며, 900.48㎡의 면적을 가지고 있는 1층 규모의 플랜트이다.",
+		"building_latitude": 37.290988,
+		"building_longitude": 126.975282,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "19",
+		"building_name": "후문(서문)",
+		"building_image": "gtYqJAyxGMaptCnmMcIT.jpg",
+		"building_info": "성균관대학교의 후문으로, 캠퍼스의 서쪽에 위치해 서문이라고 불리기도 한다.",
+		"building_latitude": 37.296305,
+		"building_longitude": 126.970633,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "21",
+		"building_name": "제1공학관21동",
+		"building_image": "cDFlioYZSavDXEIOBKTu.jpg",
+		"building_info": "1978년에 완공된 제1공학관은 21동부터 23동까지로 나뉘며 'ㄷ'자 형태로 구분되어 있다. 21동에는 정보통신/소프트웨어/공과대학행정실을 비롯한 행정실, CAD연구실 등 다양한 연구실과 스마트라운지, 스마트갤러리와 같은 시설을 갖추고 있다.",
+		"building_latitude": 37.293633,
+		"building_longitude": 126.976405,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "22",
+		"building_name": "제1공학관22동",
+		"building_image": "kXOXVQGyvDsersHvkVYN.jpg",
+		"building_info": "1978년에 완공된 제1공학관은 21동부터 23동까지로 나뉘며 'ㄷ'자 형태로 구분되어 있다. 22동에는 다양한 연구실과 ADIC센터, 프리젠테이션룸, 설계실, 첨단강의실 및 세미나실 등을 갖추고 있다.",
+		"building_latitude": 37.293847,
+		"building_longitude": 126.977091,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "23",
+		"building_name": "제1공학관23동",
+		"building_image": "DYpqZcoYpynzgLcicOSL.jpg",
+		"building_info": "1978년에 완공된 제1공학관은 21동부터 23동까지로 나뉘며 'ㄷ'자 형태로 구분되어 있다. 23동에는 IT가속기공학연구센터와 같은 연구시설과 교수 연구실, 캠퍼스관리팀과 세미나실 등을 갖추고 있다.",
+		"building_latitude": 37.294293,
+		"building_longitude": 126.976662,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "24",
+		"building_name": "공학실습동B(24)",
+		"building_image": "ByHLkVaSZplNLebnpLtR.jpg",
+		"building_info": "1980년 6월에 준공된 실습동으로 2개동, 총 3층의 규모로 구성되었다. 3,310.90㎡ 연면적 안에 다양한 실험실, 연구실, 설계스튜디오, 공작실 등을 가지고 있다.",
+		"building_latitude": 37.293284,
+		"building_longitude": 126.977898,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "25",
+		"building_name": "제2공학관25동",
+		"building_image": "odhylGnwKZqFyDHSIhDt.jpg",
+		"building_info": "1994년에 완공된 제2공학관은 25동부터 27동까지의 연구동이 'ㄷ'자 형태로 연결되어 있다. 25동에는 다양한 연구실과 실험실, 회의실 등의 시설을 갖추고 있다.",
+		"building_latitude": 37.294739,
+		"building_longitude": 126.976718,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "26",
+		"building_name": "제2공학관26동",
+		"building_image": "OHLbgzNRjladwpZeGFOx.jpg",
+		"building_info": "1994년에 완공된 제2공학관은 25동부터 27동까지의 연구동이 'ㄷ'자로 연결된 형태를 갖췄다. 26동에는 공대식당을 비롯한 휴게실과 매점, 열람실 등의 편의시설과 첨단강의실, 대학원생들을 위한 연구공간이 곳곳에 마련되어 있다.",
+		"building_latitude": 37.295087,
+		"building_longitude": 126.97745,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "27",
+		"building_name": "제2공학관27동",
+		"building_image": "wOAeAMMNqMcKIIyOgbqZ.jpg",
+		"building_info": "1994년에 완공된 제2공학관은 25동부터 27동까지의 연구동이 'ㄷ'자 형태로 연결되어 있다. 27동에는 공학교육혁신센터와 성균어학원, 우주과학기술연구소, 창업기업 사무실 등이 자리하며, 다양한 세미나실, 연구실 및 강의실을 갖추고 있다.",
+		"building_latitude": 37.295505,
+		"building_longitude": 126.976927,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "30",
+		"building_name": "건축환경실험실",
+		"building_image": "iVABOwaqPzglpRKjmkUV.jpg",
+		"building_info": "2001년 2월에 준공되었으며, 연면적 108㎡의 실험실이다.",
+		"building_latitude": 37.293356,
+		"building_longitude": 126.976959,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "31",
+		"building_name": "제1과학관31동",
+		"building_image": "jVQAiAAYHsgBUxboseYi.jpg",
+		"building_info": "1981년에 준공된 제1과학관은 자연과학대학이 주로 사용하는 공간이다. 교수연구실, 실험실, 강의실, 회의실 등이 마련되어 있다. 제1과학관부터 제2과학관, 기초학문관, 생명공학관까지 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
+		"building_latitude": 37.294377,
+		"building_longitude": 126.974881,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "32",
+		"building_name": "제2과학관32동",
+		"building_image": "AGBCwxmgrrEMJUMjQNWU.jpg",
+		"building_info": "1981년에 준공된 제2과학관은 자연과학대학이 주로 사용하는 공간이다. 기초과학연구소 등의 연구시설과 암실,저온실 등의 다양한 실험실, 세미나실 등이 마련되어 있다. 제1과학관과 기초학문관, 생명공학관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
+		"building_latitude": 37.294928,
+		"building_longitude": 126.974766,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "33",
+		"building_name": "화학관",
+		"building_image": "zByGanOLOKNIivMfcbXI.jpg",
+		"building_info": "2008년에 준공되었으며, 약학관과 반도체관을 잇는 종합강의동으로, 지하 1층, 지상 8층의 총 9,133㎡ 면적을 가진다. 첨단강의실과 연구실 및 회의실, 라운지 등의 공간과 슈퍼컴퓨터실, 동위원소실험실, 세포배양실등 연구에 필요한 최신식 시설을 고루 갖추고 있다.",
+		"building_latitude": 37.291544,
+		"building_longitude": 126.977409,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "40",
+		"building_name": "반도체관",
+		"building_image": "WaZMcBQIAbfGPQAfaqOR.jpg",
+		"building_info": "2008년에 준공되었으며, 약학관과 반도체관을 잇는 종합강의동으로, 지하 1층, 지상 8층의 총 9,133㎡ 면적을 가진다. 첨단강의실과 연구실 및 실습실 등의 학업 및 연구공간과 워크스테이션실, 디지털콘텐츠스튜디오, SW스튜디오등의 최신식 시설을 갖추고 있다.",
+		"building_latitude": 37.291781,
+		"building_longitude": 126.978085,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "48",
+		"building_name": "삼성학술정보관",
+		"building_image": "LSHRXXTOWcbuUlegcgZV.jpg",
+		"building_info": "2009년에 신축된 삼성학술정보관은 국내 최고 수준의 최신식 멀티미디어 기기와 시설들을 보유하고 있다. 국내서 약 42만권, 국외서 약 20만권으로 62만권에 가까운 도서를 소장 중이며, 기본적인 도서관의 기능뿐 아니라 정보화사회에 걸맞는 다기능도서관의 역할을 수행하고 있다.",
+		"building_latitude": 37.293885,
+		"building_longitude": 126.974906,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "49",
+		"building_name": "운용재",
+		"building_image": "hlFNvUBXPNUsBaLfyAsK.jpg",
+		"building_info": "국가에 이바지하는 인재 양성을 목표로 변리사 및 기술고시를 준비하는 학생들의 면학과 수험생활을 지원하기 위한 공간으로 설립되었다. 복지회관 뒤에 위치하고 있으며 지상 2층 규모를 갖고 있다.",
+		"building_latitude": 37.294555,
+		"building_longitude": 126.971921,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "51",
+		"building_name": "기초학문관51동",
+		"building_image": "IGqmdrRtdrxGpYwUGahu.jpg",
+		"building_info": "1981년에 준공된 기초학문관은, 학부/사범대학행정실 등의 행정공간과 강의실, 연구실 등이 즐비해 있다. 제1과학관과 제2과학관, 생명공학관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
+		"building_latitude": 37.295363,
+		"building_longitude": 126.974259,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "53",
+		"building_name": "약학관",
+		"building_image": "XCZQHUvTFwGLuIeaAErf.jpg",
+		"building_info": "2008년에 준공되었으며, 화학관과 반도체관을 잇는 종합강의동으로, 지하 1층, 지상 8층의 총 9,133㎡ 면적을 가진다. 첨단강의실과 연구실 및 실습실, 세미나실등의 공간과 도서관, 열람실, 체력단련실 등 다양한 편의시설을 갖추고 있다.",
+		"building_latitude": 37.291914,
+		"building_longitude": 126.976538,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "61",
+		"building_name": "생명공학관61동",
+		"building_image": "aRNOpOONIoXsjArYVfJw.jpg",
+		"building_info": "1981년에 준공된 생명공학관은 생명공학대학 학생들이 주로 이용하는 공간으로, 연구실과 설계실, 세미나실, 실습실 등의 다양한 공간이 마련되어 있다. 제1과학관과 제2과학관, 기초학문관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
+		"building_latitude": 37.295862,
+		"building_longitude": 126.973918,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "62",
+		"building_name": "생명공학관62동",
+		"building_image": "fbdUwcUtOTfMnxzjwYKT.jpg",
+		"building_info": "기존의 생명공학관에 더하여 1988년에 증축되었으며, 생명공학대학 학생들이 주로 이용하는 공간으로 연구실과 학생회실, 실험실 등의 다양한 공간이 마련되어 있다. 제1과학관과 제2과학관, 기초학문관이 하나로 연결되어 있어 건물 내에서 자유롭게 이동할 수 있다.",
+		"building_latitude": 37.296092,
+		"building_longitude": 126.974554,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "70",
+		"building_name": "대강당",
+		"building_image": "WIKLPKuDrWchaqHbHCGz.jpg",
+		"building_info": "2001년에 의학관과 함께 준공되었으며, 의과대학에서 관리하는 대강당이다. 주요 세미나와 학술대회를 개최할 수 있는 넓은 규모를 가지고 있다.",
+		"building_latitude": 37.292326,
+		"building_longitude": 126.972404,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "71",
+		"building_name": "의학관",
+		"building_image": "bsVFmGwcaTVxbGMDyDMq.jpg",
+		"building_info": "의학과 학생들이 사용하는 의학관은 2001년 2월에 준공되었으며, 전문적 자질과 능력을 지닌 우수한 의료인을 양성하기 위한 최신식 장비와 연구 시설을 갖춘 첨단강의동이다.",
+		"building_latitude": 37.29211,
+		"building_longitude": 126.973383,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "72",
+		"building_name": "체육관",
+		"building_image": "BBuLhKYvpkoSjSvbcIKo.jpg",
+		"building_info": "성균관대학교 스포츠단 중 실내종목(농구,배구,검도 등)의 운동부 학생들이 사용하는 공간으로 2003년에 준공되었다. 선수들의 쾌적한 체육활동을 도울 수 있도록 물리치료실, 휴게실, 탈의실 및 샤워시설 등이 조성되어 있다.",
+		"building_latitude": 37.292399,
+		"building_longitude": 126.97069,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "81",
+		"building_name": "제1종합연구동",
+		"building_image": "xPtBzbUGjqtgPdCyZltP.jpg",
+		"building_info": "제1종합연구동은 산학협력 및 세계적 수준의 연구결과 창출을 위해 2001년에 준공된 복합연구공간이다. 연구에 필요한 최신식 기기와 설비를 갖추고 있으며, 지하 2층, 지상 8층, 총 10층 규모로 구성되었다.",
+		"building_latitude": 37.292224,
+		"building_longitude": 126.978466,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "83",
+		"building_name": "제2종합연구동",
+		"building_image": "keZTsnDXaEtYVKpakLTY.jpg",
+		"building_info": "제2종합연구동은 산학협력 및 세계적 수준의 연구결과 창출을 통한 글로벌 리딩대학으로의 도약을 위해 2006년에 준공된 복합연구공간이다. 총 3동의 건물로 구성되어 있다. 연구에 필요한 최신식 기기와 설비를 갖추고 있으며, 지하 1층, 지상 7층, 총 7층 규모로 구성되었다.",
+		"building_latitude": 37.293159,
+		"building_longitude": 126.978511,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "84",
+		"building_name": "제약기술관",
+		"building_image": "SdllaqXvKKChmFyfyaVb.jpg",
+		"building_info": "약학과 학생들이 주로 사용하는 공간으로, 제약기술 관련 연구를 수행할 수 있는 최신식 장비들을 완비하고 있다. 약학관과 함께 2008년에 준공되었다.",
+		"building_latitude": 37.291544,
+		"building_longitude": 126.976448,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "85",
+		"building_name": "산학협력센터",
+		"building_image": "PnRvioYinIlZEXFPapOt.jpg",
+		"building_info": "산학협력센터는 정부 및 지자체의 산학협력 지원 및 창업지원사업을 통해 2013년에 건립된 건물로써, 산학협력단과 연구실, 세미나실이 들어서 있으며, 40여 개의 창업보육기업 및 실습실 등이 위치하고 있다.",
+		"building_latitude": 37.295857,
+		"building_longitude": 126.97565,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "86",
+		"building_name": "N센터",
+		"building_image": "IcesOrjsuvUJGjqMTlVs.jpg",
+		"building_info": "지하 2층, 지상 8층, 총 10층 규모로 2015년 준공되었으며, 27,575.39㎡의 연면적을 가진다. 각종 실험실 및 특수실험실과 최신식 실험 장비 및 시설들을 갖추어 학생들이 뛰어난 연구를 수행할 수 있는 환경을 제공한다.",
+		"building_latitude": 37.291996,
+		"building_longitude": 126.975703,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "89",
+		"building_name": "학군단",
+		"building_image": "QZYEOdOStSJxKEeoZfKH.jpg",
+		"building_info": "성균관대학교 ROTC 학우들이 머무는 공간이다. 생활관, 체력단련실, 행정반 등이 위치해 있다.",
+		"building_latitude": 37.29438,
+		"building_longitude": 126.971825,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "91",
+		"building_name": "기숙사인관",
+		"building_image": "mVBpYGzfJthGhyABCYmm.jpg",
+		"building_info": "1982년에 준공된 인관은 학부 남학생들을 위한 기숙사로, 400여명을 수용할 수 있는 시설이다. 4인실로 구성되어 있고 상대적으로 저렴한 기숙사비로 다양한 친구와 선후배들을 만나기를 원하는 학생들이 선호하는 공간이다.",
+		"building_latitude": 37.296935,
+		"building_longitude": 126.973932,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "92",
+		"building_name": "기숙사의관",
+		"building_image": "ONlShPdVcfLFtsbvfxtA.jpg",
+		"building_info": "1979년에 준공된 의관은 대학원생들을 위한 기숙사로, 2층에는 여학생이, 1,3층에는 남학생들을 위한 전용 공간이 마련되어 있다. 약 200여명을 수용할 수 있으며, 대학원생을 위해 통금 시간 없이 자유로운 출입이 가능하다는 것이 장점이다.",
+		"building_latitude": 37.296915,
+		"building_longitude": 126.974522,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "93",
+		"building_name": "기숙사예관",
+		"building_image": "gBrzUaizisolrbhPzQak.jpg",
+		"building_info": "1997년에 준공된 예관은 학부 여학생들을 위한 기숙사로, 약 350여명을 수용할 수 있다. 전체 호실이 2인실로 구성되어 있고 공용시설이 많아 호실별로 청소와 관리를 하는 것에 부담을 느끼는 학생들에게 상대적으로 적합한 공간이다.",
+		"building_latitude": 37.296601,
+		"building_longitude": 126.975574,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "95",
+		"building_name": "기숙사지관",
+		"building_image": "rBJvfzuqrDJfYihewAtn.jpg",
+		"building_info": "2001년에 준공된 지관은 학부 남학생들을 위한 기숙사로, 전 호실이 2인실로 구성되어 있고, 약 900여명을 수용할 수 있는 큰 규모의 기숙사이다. 공용시설이 많아 호실별로 청소와 관리를 하는 것에 부담을 느끼는 학생들에게 상대적으로 적합한 공간이다.",
+		"building_latitude": 37.296413,
+		"building_longitude": 126.977534,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "96",
+		"building_name": "게스트하우스",
+		"building_image": "ypRGHTtIdyIBkusTlVAa.jpg",
+		"building_info": "2001년에 준공되었으며, 지상 4층, 연면적 931.26㎡로 구성되어 있다. 성균관대학교 교직원 전용 게스트하우스로 업무적으로 이용이 필요한 교직원, 외국인 교원 및 연구원들은 누구든지 신청 후 사용할 수 있다.",
+		"building_latitude": 37.295791,
+		"building_longitude": 126.977777,
+		"campus": "자연과학캠퍼스"
+	},
+	{
+		"building_id": "98",
+		"building_name": "기숙사신관",
+		"building_image": "TDlgxiWwGrioigIvRVvi.jpg",
+		"building_info": "2008년 신축된 최신식 시설의 기숙사인 신관은 지상 15층, 지하 2층으로 구성되어 있으며, 피트니스센터, 세미나실,  소강당, 도미노피자 등의 편의시설이 완비되어 있다. 호실도 1인실부터 2인 1실, 4인 1실, 3인 3실, 4인 4실, 6인 3실 등 다양한 생활공간이 마련되어 학생들이 원하는 대로 선택할 수 있도록 배려했다.",
+		"building_latitude": 37.296407,
+		"building_longitude": 126.972393,
+		"campus": "자연과학캠퍼스"
+	}
 ]
