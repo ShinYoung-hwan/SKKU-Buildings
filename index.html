@@ -13,11 +13,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <!-- load js -->
-    <script src="./js/sidebar_script.js"></script>
-    <script src="./js/main_script.js"></script>
+    <!-- load predefined js functions -->
+    <script type="text/javascript" src="./js/sidebar_script.js"></script>
+    <script type="text/javascript" src="./js/main_script.js"></script>
 
-    <!-- load json -->
+    <!-- load predefined json -->
     <script type="text/javascript" src="./assets/building_infos.json"></script>
   </head>
   <body>
@@ -36,9 +36,11 @@
               class="form-control search-input"
               id="building-id-input"
               placeholder="building id"
+              oninput="set_buildings_list(this.value)"
             />
           </div>
 
+          <!-- building items field -->
           <div class="scrollable-content">
             <ul class="nav flex-column" id="buildings-nav">
               <li
@@ -81,6 +83,7 @@
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
+              style="filter: invert(1)"
             ></button>
           </div>
           <div class="modal-body" id="overlayModalBody">
@@ -106,13 +109,7 @@
       const buildings_nav = document.getElementById("buildings-nav");
       const modal_title = document.getElementById("overlayModalLabel");
       const modal_body = document.getElementById("overlayModalBody");
-
-      // 주어진 input에 맞게 list 최신화
       set_buildings_list();
-
-      input.addEventListener("input", (e) => {
-        set_buildings_list();
-      });
     </script>
 
     <!-- script for main -->
@@ -125,7 +122,7 @@
       set_current_position();
     </script>
 
-    <!-- load js -->
+    <!-- load eventlistener js -->
     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

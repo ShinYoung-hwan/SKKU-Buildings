@@ -8,6 +8,8 @@ body {
   height: 100vh; /* Set container to full viewport height */
   display: flex;
 }
+
+/* sidebar css */
 .sidebar {
   background-color: rgb(14, 52, 27);
   color: #ffffff;
@@ -33,6 +35,8 @@ body {
     100vh - 100px
   ); /* Adjust height to leave space for fixed header */
 }
+
+/* main content css */
 .main-content {
   padding: 15px;
   width: 100vw;
@@ -58,12 +62,9 @@ body {
   margin-bottom: 10px;
 }
 
-a {
+.nav-link {
   color: #ffffff !important;
   text-decoration: none;
-}
-
-.nav-link {
   cursor: pointer;
 }
 .nav-link:hover {
@@ -71,6 +72,7 @@ a {
   text-decoration: underline;
 }
 
+/* defined at main_script.js */
 .dotOverlay {
   position: relative;
   bottom: 10px;
@@ -98,24 +100,16 @@ a {
   bottom: -8px;
   width: 11px;
   height: 8px;
-  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white_small.png");
 }
 
-.overlay {
-  position: fixed;
-  /* top: 0; */
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s linear;
-  transform: translateY(-100%);
+/* model contents css */
+
+.modal-content {
+  background-color: rgb(14, 52, 27);
 }
-.overlay.is-open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+.modal-title {
+  color: rgb(215, 200, 130);
+}
+.modal-body {
+  color: #ffffff;
 }
