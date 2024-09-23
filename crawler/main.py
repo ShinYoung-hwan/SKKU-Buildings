@@ -42,7 +42,24 @@ def move_to_main_directory(json: str="building_infos.json", folder: str="images"
     
     # 이동 후 빈 폴더 삭제
     os.rmdir(folder)
-
+    
+def copy_to_mobile_directory(json: str="building_infos.json", folder: str="images") -> None:
+    """ 건물 정보와 이미지 파일들을 모바일 디렉터리에 복사한다.
+    
+        Args:
+        json (str): 옮길 json 파일명. Defaults to "building_infos.json".
+        folder (str): 옮길 이미지들이 저장되어 있는 폴더명. Defaults to "images".
+    """
+    dst = os.path.json("..", "skku_buildings_mobile", "assets")
+    
+    # json 파일 복사
+    shutil.copyfile(json, os.path.join(dst, json))
+    
+    # images 복사
+    for image in os.listdir(folder):
+        src = os.path.join(folder, image)
+        shutil.copy(src, os.path.join(dst, image))
+    
 if __name__ == "__main__":
     json_filename = "building_infos.json"
     image_download_folder = "images"
@@ -57,6 +74,8 @@ if __name__ == "__main__":
     
     data = crawler_seoul.get_data() + crawler_suwon.get_data()
     write_json_file(json_filename, data)
+    
+    copy_to_mobile_directory(json_filename, image_download_folder)
     
     convert_json_to_load_html(json_filename)
     move_to_main_directory(json_filename, image_download_folder)

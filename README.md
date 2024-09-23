@@ -4,7 +4,7 @@
 
 - Get directions from current location to a specific Sungkyunkwan University building!
 
-  [![Demo video](demo/demo.gif)](demo/demo.mp4)
+  ![Demo video](demo.gif)
 
 ## How to start
 
@@ -16,3 +16,4 @@
 - html + css + js
 - Map API: **Kakao Maps API**
 - Periodically update building informations via **Github Action**
+- Mobile App: Flutter
