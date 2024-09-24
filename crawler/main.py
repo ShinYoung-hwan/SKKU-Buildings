@@ -1,5 +1,6 @@
 import os
 import shutil
+import logging
 
 from crawler.crawler import Crawler
 from crawler.utils import write_json_file
@@ -22,6 +23,7 @@ def convert_json_to_load_html(filename: str="building_infos.json") -> None:
     # 3. 새로운 내용을 파일에 다시 쓰기
     with open(filename, "w") as file:
         file.write(new_content)
+    logging.info("Successfully convert basic json file to load html")
 
 def move_to_main_directory(json: str="building_infos.json", folder: str="images") -> None:
     """ 건물 정보와 이미지 파일들을 메인 디렉터리로 이동시킨다.
@@ -42,6 +44,7 @@ def move_to_main_directory(json: str="building_infos.json", folder: str="images"
     
     # 이동 후 빈 폴더 삭제
     os.rmdir(folder)
+    logging.info("Successfully move assets to main directory")
     
 def copy_to_mobile_directory(json: str="building_infos.json", folder: str="images") -> None:
     """ 건물 정보와 이미지 파일들을 모바일 디렉터리에 복사한다.
@@ -60,7 +63,11 @@ def copy_to_mobile_directory(json: str="building_infos.json", folder: str="image
         src = os.path.join(folder, image)
         shutil.copy(src, os.path.join(dst, image))
     
+    logging.info("Successfully move assets to mobile directory")
+    
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    
     json_filename = "building_infos.json"
     image_download_folder = "images"
     

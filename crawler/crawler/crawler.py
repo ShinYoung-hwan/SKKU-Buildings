@@ -1,12 +1,14 @@
 import os
 from collections import OrderedDict
 from time import sleep
+import logging
+import random
 
 import requests
+from requests.exceptions import RequestException
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, WebDriverException
 
 class Crawler:
@@ -38,6 +40,7 @@ class Crawler:
         Args:
             folder_name (str): 이미지들을 다운로드할 폴더명. Defaults to "images".
         """
+        logging.info(f"Start downlading images")
         # 다운로드할 폴더를 생성한다.
         if not os.path.exists(folder_name):
             os.mkdir(folder_name)
@@ -56,18 +59,25 @@ class Crawler:
                 
                 # 웹 상에서 파일 다운로드
                 try: 
-                    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:39.0)"})
+                    logging.info(f"Try to download image of {building_info['building_name']}")
+                    response = requests.get(url, 
+                                            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:39.0)"}
+                    )
                     response.raise_for_status()
                     
                     download_path = os.path.join(folder_name, filename)
                     
                     with open(download_path, "wb") as file:
                         file.write(response.content)
+                        
+                    logging.info(f"Successfully download image of {building_info['building_name']}")
                     
                 # 실패시 싶패 내역을 기록한다.
-                except Exception as err:
-                    print(err)
+                except RequestException as err:
                     lost.append(building_info)
+                    logging.warning(f"{err}")
+
+                sleep(random.random(0.5, 1.5))
                     
         self._renewal_building_images()
         
@@ -82,6 +92,7 @@ class Crawler:
         """ 주어진 웹페이지에서 건물정보를 모두 크롤링
         """
         # building_number, building_name, building_address, building_image, building_info, campus, 
+        logging.info(f"Start crawling {self.url}")
 
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # 헤드리스 모드 설정
@@ -113,6 +124,8 @@ class Crawler:
                     
                     # 만약 building_id가 없는 건물이면 skip한다.
                     if building_id == "": continue
+                    
+                    logging.info(f"Try to crawl ({building_id}: {building_name}) datas")
 
                     # 리스트 클릭
                     position.click()
@@ -156,13 +169,12 @@ class Crawler:
                         "building_longitude": building_longitude,
                         "campus": self.campus
                     }))
+                    logging.info(f"Sucessfully crawl ({building_id}: {building_name}) datas")
+                    
                 # 실패시 실패 내역을 기록한다.
-                except NoSuchElementException as err:
+                except NoSuchElementException or WebDriverException as err:
                     lost.append(i)
-                    print(i, err)
-                except WebDriverException as err:
-                    lost.append(i)
-                    print(i, err)
+                    logging.warning(f"{i}: {err}")
         
         driver.close()
         
