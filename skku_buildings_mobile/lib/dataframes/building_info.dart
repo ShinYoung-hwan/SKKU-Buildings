@@ -31,7 +31,6 @@ class Building_Info {
 
   @override
   String toString() {
-    // TODO: implement toString
     return "{ building_id: ${this.building_id}, building_name: ${this.building_name} }";
   }
 }

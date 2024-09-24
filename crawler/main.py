@@ -53,7 +53,7 @@ def copy_to_mobile_directory(json: str="building_infos.json", folder: str="image
         json (str): 옮길 json 파일명. Defaults to "building_infos.json".
         folder (str): 옮길 이미지들이 저장되어 있는 폴더명. Defaults to "images".
     """
-    dst = os.path.json("..", "skku_buildings_mobile", "assets")
+    dst = os.path.join("..", "skku_buildings_mobile", "assets")
     
     # json 파일 복사
     shutil.copyfile(json, os.path.join(dst, json))

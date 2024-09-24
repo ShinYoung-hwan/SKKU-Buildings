@@ -4,7 +4,7 @@ class TitleAtom extends StatelessWidget {
   final String text;
   final double fontSize;
 
-  TitleAtom({required this.text, required this.fontSize});
+  const TitleAtom({Key? key, required this.text, required this.fontSize}): super(key: key);
 
   @override
   Widget build(BuildContext context) {

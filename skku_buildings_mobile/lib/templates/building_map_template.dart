@@ -52,7 +52,7 @@ class _BuildingMapTemplateState extends State<BuildingMapTemplate> {
           Positioned(
             right: 15,
             bottom: 15,
-            child: MyLocationIcon(ontap: () => { setState(() => getGeoData() ) }),
+            child: MyLocationIcon(ontap: () => { getGeoData(), _controller.reload() }),
           ),
         ],
       )

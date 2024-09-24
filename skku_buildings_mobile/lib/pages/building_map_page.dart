@@ -6,7 +6,7 @@ import 'package:skku_buildings_mobile/templates/building_map_template.dart';
 class BuildingMapPage extends StatelessWidget {
   final Building_Info building_info;
 
-  BuildingMapPage({ required this.building_info });
+  const BuildingMapPage({Key? key, required this.building_info }): super(key: key);
 
   @override
   Widget build(BuildContext context) {

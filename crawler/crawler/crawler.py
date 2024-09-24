@@ -77,7 +77,7 @@ class Crawler:
                     lost.append(building_info)
                     logging.warning(f"{err}")
 
-                sleep(random.random(0.5, 1.5))
+                sleep(random.uniform(0.5, 1.5))
                     
         self._renewal_building_images()
         
