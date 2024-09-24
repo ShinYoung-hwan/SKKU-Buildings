@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:skku_buildings_mobile/atoms/my_location_icon.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class BuildingMapTemplate extends StatefulWidget {
@@ -41,9 +42,6 @@ class _BuildingMapTemplateState extends State<BuildingMapTemplate> {
   
   @override
   Widget build(BuildContext context) {
-
-    print('Here (${src_lat}, ${src_lng}) -> (${widget.dst_lat}, ${widget.dst_lng})');
-
     return Container(
       child: Stack(
         children: [
@@ -54,18 +52,8 @@ class _BuildingMapTemplateState extends State<BuildingMapTemplate> {
           Positioned(
             right: 15,
             bottom: 15,
-            child: GestureDetector(
-              onTap: () => {
-                setState(() {
-                  getGeoData();
-                })
-              },
-              child: Icon(
-                Icons.my_location,
-                size: 50,
-              ),
-            )
-          )
+            child: MyLocationIcon(ontap: () => { setState(() => getGeoData() ) }),
+          ),
         ],
       )
     );
