@@ -18,7 +18,7 @@ class _BuildingListTemplateState extends State<BuildingListTemplate> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color.fromRGBO(14, 52, 27, 1),
+      color: const Color.fromRGBO(14, 52, 27, 1),
       child: Column(
         children: [
           CustomTextField(hintText: "Building ID", color: Colors.white, controller: _controller, onChanged: (value) => setState(() {  })),

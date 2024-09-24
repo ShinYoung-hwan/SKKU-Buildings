@@ -6,12 +6,7 @@
 
     <!-- load css -->
     <!-- load css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
 
     <!-- load predefined js functions -->
     <script type="text/javascript" src="./js/main_script.js"></script>
@@ -19,12 +14,6 @@
   <body>
     <div style="height: 100vh; display: flex">
       <div id="map" style="width: 100%; height: 100%"></div>
-      <div
-        class="floating-icon"
-        onclick="set_current_position(keys['lat'], keys['lng'])"
-      >
-        <i class="bi bi-crosshair"></i>
-      </div>
     </div>
 
     <!-- script for map -->
@@ -49,7 +38,12 @@
 
       const container = document.getElementById("map");
       const keys = parseUrlParameters();
-      set_current_position(keys["lat"], keys["lng"]);
+      set_src2dst_positions(
+        keys["src_lat"],
+        keys["src_lng"],
+        keys["dst_lat"],
+        keys["dst_lng"]
+      );
     </script>
   </body>
 </html>

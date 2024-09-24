@@ -91,6 +91,54 @@ const set_positions = (lat = null, lng = null) => {
   });
 };
 
+const set_src2dst_positions = (srcLat, srcLng, dstLat, dstLng) => {
+  var bounds = new kakao.maps.LatLngBounds();
+  // 현재 위치 객체
+  const srcPos = new kakao.maps.LatLng(srcLat, srcLng);
+  bounds.extend(srcPos);
+
+  // 지도 중앙 설정
+  var map = new kakao.maps.Map(container, {
+    center: srcPos,
+    level: 3,
+  });
+
+  // 마커를 생성합니다
+  var marker = new kakao.maps.Marker({
+    position: srcPos,
+    image: get_marker_image("./assets/src_marker.png"), // 마커이미지 설정
+  });
+  marker.setMap(map);
+
+  // 목적지 위치 객체
+  const dstPos = new kakao.maps.LatLng(dstLat, dstLng);
+  bounds.extend(dstPos);
+
+  // 마커를 생성합니다
+  marker = new kakao.maps.Marker({
+    position: dstPos,
+    image: get_marker_image("./assets/dst_marker.png"), // 마커이미지 설정
+  });
+  marker.setMap(map);
+
+  // 지도에 직선거리 표시하기
+  var polyline = new kakao.maps.Polyline({
+    path: [srcPos, dstPos], // 선을 구성하는 좌표배열 입니다
+    strokeWeight: 5, // 선의 두께 입니다
+    strokeColor: "#FFAE00", // 선의 색깔입니다
+    strokeOpacity: 0.7, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+    strokeStyle: "solid", // 선의 스타일입니다
+  });
+
+  // 지도에 선을 표시합니다
+  polyline.setMap(map);
+  var distance = Math.round(polyline.getLength());
+  show_total_distance(srcPos, dstPos, distance, map);
+
+  // 맵 크기 재설정
+  map.setBounds(bounds);
+};
+
 /* 현재 위치를 지도상에 표시합니다. */
 const set_current_position = (lat = null, lng = null) => {
   set_positions(lat, lng);

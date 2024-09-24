@@ -16,7 +16,8 @@ class BuildingSpecificTemplate extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          TitleAtom(text: "${building_info.building_id}: ${building_info.building_name} - ${building_info.campus}", fontSize: screenWidth * 0.1,),
+          TitleAtom(text: "${building_info.building_id}: ${building_info.building_name}", fontSize: screenWidth * 0.09,),
+          TitleAtom(text: "${building_info.campus}", fontSize: screenWidth * 0.05,),
           Image.asset("assets/${building_info.building_image}", width: screenWidth),
           Padding(
             padding: const EdgeInsets.all(20.0),

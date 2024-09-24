@@ -26,7 +26,7 @@ class BuildingListItem extends StatelessWidget {
           child: Row(
             children: [
               GestureDetector(
-                onTap: () => { Navigator.push(context, MaterialPageRoute(builder: (context) => BuildingMapPage(building_info: building_info))) },
+                onTap: () => { Navigator.push(context, MaterialPageRoute(builder: (context) => BuildingMapPage(building_info: building_info,))) },
                 child: Text("${building_info.building_name} (${building_info.building_id})",
                   style: TextStyle(
                     fontSize: 20,

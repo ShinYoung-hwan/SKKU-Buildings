@@ -13,7 +13,7 @@ class BuildingMapPage extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: Header(),
-        body: BuildingMapTemplate(building_info: building_info,),
+        body: BuildingMapTemplate(dst_lat: building_info.building_latitude, dst_lng: building_info.building_longitude,),
       ),
     );
   }
