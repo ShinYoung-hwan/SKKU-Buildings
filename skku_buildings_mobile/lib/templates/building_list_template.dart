@@ -6,7 +6,7 @@ import 'package:skku_buildings_mobile/organisms/building_infos_list.dart';
 class BuildingListTemplate extends StatefulWidget {
   final List<Building_Info> building_infos;
 
-  BuildingListTemplate({required this.building_infos});
+  const BuildingListTemplate({Key? key, required this.building_infos}): super(key: key);
 
   @override
   State<BuildingListTemplate> createState() => _BuildingListTemplateState();

@@ -6,9 +6,7 @@ import 'package:skku_buildings_mobile/templates/building_specific_template.dart'
 class BuildingSpecificPage extends StatelessWidget {
   final Building_Info building_info;
 
-
-
-  BuildingSpecificPage({ required this.building_info });
+  const BuildingSpecificPage({ Key? key, required this.building_info }): super(key: key);
 
   @override
   Widget build(BuildContext context) {
